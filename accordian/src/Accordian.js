@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default class Accordian extends React.Component{
+  static defaultProps = {sections: []};
   state = {
     currentIndex: null
   };

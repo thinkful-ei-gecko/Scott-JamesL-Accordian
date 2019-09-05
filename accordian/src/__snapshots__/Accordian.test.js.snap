@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordian /> expands section on click 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+    <p />
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+    <p>
+      Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+    </p>
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+    <p />
+  </li>
+</ul>
+`;
+
+exports[`<Accordian /> only has one section open after multiple clicks 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+    <p />
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+    <p />
+  </li>
+</ul>
+`;
+
+exports[`<Accordian /> renders empty given no tabs 1`] = `<ul />`;
+
+exports[`<Accordian /> renders empty ul 1`] = `<ul />`;
+
+exports[`<Accordian /> renders with all sections closed by default 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+    <p />
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+    <p />
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+    <p />
+  </li>
+</ul>
+`;
+
+exports[`<Accordian /> renders with no sections active 1`] = `
+<ul>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+    <p>
+      
+    </p>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+    <p>
+      
+    </p>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+    <p>
+      
+    </p>
+  </li>
+</ul>
+`;
